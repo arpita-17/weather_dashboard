@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Weather Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a weather dashboard application where users can search for weather information of cities and manage their favorite cities.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search weather by city name
+- View current weather and 5-day forecast
+- Add and remove cities from favorites list
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Main Dashboard
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Weather Dashboard and 1 more page - Profile 1 - Microsoft​ Edge 08-11-2024 23_29_10](https://github.com/user-attachments/assets/5c0cf2ce-31c6-457f-b68b-1e31799a69db)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Temperature Status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Weather Dashboard and 1 more page - Profile 1 - Microsoft​ Edge 08-11-2024 23_29_23](https://github.com/user-attachments/assets/f5032d06-5377-4697-b33e-7faae187095b)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Favorites List
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Weather Dashboard and 1 more page - Profile 1 - Microsoft​ Edge 08-11-2024 23_30_03](https://github.com/user-attachments/assets/d38f5f18-fafe-4e43-833c-e4e388903c41)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/arpita-17/weather_dashboard.git
+Navigate to the project folder:
+bash
+Copy code
+cd weather-dashboard
+Install dependencies:
+bash
+Copy code
+npm install
+Start the app:
+bash
+Copy code
+npm start
 
-## Learn More
+Usage
+Enter a city name in the search bar to view its weather.
+Click on a city in the favorites list to view its weather.
+Use the "Remove" button to delete a city from the favorites.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Technologies Used
+React
+Axios
+CSS3
